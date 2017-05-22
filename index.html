@@ -13,31 +13,44 @@
 
 body{
   
-  background-color: black;
+  background-image:  url("hack.gif");
+
 }
 
-div{
-  color:green;
+
+a{
+  color: #00ff00;
+}
+
+a:hover, a:active {
+    color: red;
+}
+
+@keyframes blink { 50% { border-color: #ff0000; }  }
+
+table{ 
   font-family: 'Barrio', cursive;
-  font-size: 48px;
+  font-size: 100px;
+  border: 8px solid #000000 ;
+  position: fixed ;
+  top: 50% ;
+  right: 50% ;
+  width: 20em ;
+  height: 5em ;
+  margin: -2.5em -10em ;
+  text-align:center ;
 
-    width: 100px;
-    height: 100px;
-    background-color: red;
-
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    margin: auto;
+  animation: blink .5s step-end infinite alternate; 
 }
 
 </style>
   <body> 
     <div id = "link">
-    <a href = "Hacksim.jnlp">Begin HackSim</a>
+      <table>
+    <tr><td><a href = "Hacksim.jnlp">Begin HackSim</a></td></tr>
+
+  </table>
+
   </div>
   </body>
 </html>
