@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "utf-8"?>
 
 <jnlp spec = "0.2 1.0"
-	codebase = "http://"
+	codebase = "https://kaitlynchan.github.io/HackGUIweb/"
 	href="Hacksim.jnlp">
 
 <information>
@@ -9,7 +9,7 @@
 	<vendor>JaziandKate</vendor>
 	<homepage href = "index.html"/>
 	<description>APCS Java  Final 2017</description>
-	<icon href = "/Users/gwc/Downloads/hack.gif">
+	<icon href = "hack copy.gif">
 	<offline-allowed/>
 </information>
 
