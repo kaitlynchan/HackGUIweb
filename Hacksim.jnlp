@@ -9,7 +9,7 @@
 	<vendor>JaziandKate</vendor>
 	<homepage href = "index.html"/>
 	<description>APCS Java  Final 2017</description>
-	<icon href = "hack copy.gif">
+	<icon href = "hack copy.gif"/>
 	<offline-allowed/>
 </information>
 
